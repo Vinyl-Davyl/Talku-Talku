@@ -40,12 +40,20 @@ Leave a ⭐️ If this project got you going!
 
 ## Getting Started
 
-First, run the development server:
+First, Install the dependencies:
 
 ```bash
-npm run dev
+npm install
 # or
-yarn dev
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then, run the development server:
+
+```bash
+npm start
+# or
+yarn start
+```
+
+Open [http://localhost:3001](http://localhost:3001) with your browser to see the result.
