@@ -9,7 +9,7 @@
 
 > Talku Talku, V1. Realtime private Chat Application, With Login Authentication and Authorization, and Database Management with Firebase.
 
-### ✨ [Live Demo](https://talku-talku.netlify.app/)
+### ✨ [Live Demo](https://talku-talku.vercel.app/)
 
 ## Author
 
