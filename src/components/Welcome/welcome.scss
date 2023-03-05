@@ -1,0 +1,38 @@
+@mixin mobile {
+    @media screen and (max-width: 480px) {
+      @content;
+    }
+  }
+  @mixin tablet {
+    @media screen and (max-width: 768px) {
+      @content;
+    }
+  }
+  @mixin laptop {
+    @media screen and (max-width: 1200px) {
+      @content;
+    }
+  }
+
+.welcome{
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+  
+.welcome-img{
+    height: 13rem;
+    @include tablet {
+        display: none;
+      }
+}
+
+.welcome-name{
+    color: rgb(255, 82, 161);
+}
+
