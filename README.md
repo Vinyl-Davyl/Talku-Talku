@@ -36,23 +36,23 @@ Leave a ⭐️ If this project got you going!
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Sass](https://img.shields.io/badge/sass-e63c73.svg?style=for-the-badge&logo=sass&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-339933.svg?style=for-the-badge&logo=Firebase%2Ejs&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-%23404d59.svg?style=for-the-badge&logo=Vercel&logoColor=%2361DAFB)
+<!--![Vercel](https://img.shields.io/badge/Vercel-%23404d59.svg?style=for-the-badge&logo=Vercel&logoColor=%2361DAFB)-->
 
 ## Getting Started
 
-First, Install the dependencies:
+- First, Install the dependencies:
 
 ```bash
 npm install
 # or
 yarn install
 ```
+- Create a new project on FireBase and copy the product key and details
+- Paste the details in the `firbase.js` file in the project
 
-Then, run the development server:
+- Run the development server:
 
 ```bash
-npm start
-# or
 yarn start
 ```
 
